@@ -1,0 +1,47 @@
+h1{ 
+	color : rgb(18, 140, 255) ; /* la balise color permet de définir la couleur d'un texte ou d'un élément.*/
+	font-variant : small-caps ;/*font-variant avec pour valeur small caps permet de transformer toutes les lettres en petites majuscules.*/
+	
+
+}
+
+h2{font-weight: lighter ;/*Grâce à font-weight, il est possible de modifier l'épaisseur des lettres, lighter comme valeur pour les affiner et bolder pour les épaissir.*/
+color : rgb(0, 192, 199);
+}
+h3{color :rgb(217, 15, 187);}
+
+body{
+	background-color: rgb(255,255,255) ;/*background-color permet de changer la couleur de fond de nos éléments.*/
+	font-family:sans-serif;/*font-family permet de changer la police de notre site c'est-à-dire le style d'écriture. On peut choisir plusieurs valeurs entre serif, sans-serif, cursive et monospace.*/
+	font-size:20px;/*font-size permet de modifier la taille des lettres*/
+	text-align:center; /*text-align permet de changer la position du texte en la mettant au centre avec la valeur center, à gauche avec left, et à droite avec right.*/
+	letter-spacing: 1,5px ;/*Pour pouvoir augmenter l'espace entre les lettres on utilise la propriété letter-spacing.*/
+	border:solid;
+	border-width:78px
+	color: rgb(120, 120, 120);
+	padding-top:50px;/*padding-top correspond à la marge intérieure en haut.*/
+	padding-bottom:50px;/*padding-bottom correspond à la marge intérieure en bas.*/
+	padding-left:50px;/*padding-left correspond à la marge intérieure à gauche.*/
+	padding-right:50px;/*padding-right correspond à la marge intérieure droite.*/
+}
+
+a{
+	color:rgb(18, 140, 255);
+	text-decoration:none;/*le code text decoration avec pour valeur none permet de supprimer la barre de soulignement présente en dessous du format par défaut des liens. */
+
+}
+
+a:hover{
+	color:rgb(255, 156, 252);	/*grâce à cette sélection, il est possuble de modifier la couleur de notre lien lorsque notre curseur passe dessus. */
+
+}
+
+div{
+	border:solid;
+	border-color: rgb(18, 140, 255);
+	margin : 30px;/*margin correspond à la marge extérieure.*/
+	border-radius:20px;/*border-radius permet d'arrondir les angles de nos bords.*/
+	color: rgb(71, 70, 70);
+	box-shadow:10px 10px 25px rgb(255, 156, 252);/*box-shadow permet d'ajouter une ombre à nos éléments.*/
+}
+
